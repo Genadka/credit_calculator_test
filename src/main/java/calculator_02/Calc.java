@@ -24,14 +24,11 @@ public class Calc {
             Client client = new Client(loanAmount, monthlyPayment, interestRate, type);
             double overpayment = client.overpayment();
 
-            // Вывод результатов
             if (overpayment < 0) {
                 throw new IllegalArgumentException("Кредит с заданными параметрами выплатить невозможно.");
             }
 
-            double totalPayment = loanAmount + overpayment;
-            System.out.println("Переплата по вашему кредиту составит: " + overpayment);
-            System.out.println("Общая сумма к оплате: " + totalPayment);
+            client.getTotalAmountInfo();
 
         } catch (IllegalArgumentException e) {
             System.out.println("Ошибка: " + e.getMessage());
