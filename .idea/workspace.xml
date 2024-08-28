@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24dcbc8-9b1f-4f62-bb9a-b85beece7dcc" name="Changes" comment="Добавлен класс Calc">
+    <list default="true" id="d24dcbc8-9b1f-4f62-bb9a-b85beece7dcc" name="Changes" comment="правки">
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop_calc/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop_calc/BusinessClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop_calc/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop_calc/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop_calc/HumanClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop_calc/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop_calc/LoanCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator_02/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator_02/Calc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +42,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Calc.executor": "Run",
+    "Application.Console.executor": "Run",
     "Application.calculator_02.Calc.executor": "Run",
+    "Application.Сonsole.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -44,13 +52,26 @@
     "onboarding.tips.debug.path": "C:/my_projeject/credit_calculator_test/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.calculator_02.Calc">
+  <component name="RunManager" selected="Application.Console">
     <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="calculator.Calc" />
       <module name="credit_calculator_test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Console" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop_calc.Console" />
+      <module name="credit_calculator_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop_calc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,8 +92,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Сonsole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop_calc.Сonsole" />
+      <module name="credit_calculator_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop_calc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Console" />
+        <item itemvalue="Application.Сonsole" />
         <item itemvalue="Application.calculator_02.Calc" />
         <item itemvalue="Application.Calc" />
       </list>
@@ -103,13 +139,22 @@
       <option name="project" value="LOCAL" />
       <updated>1724624506249</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="правки">
+      <option name="closed" value="true" />
+      <created>1724677846064</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724677846064</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="залив" />
     <MESSAGE value="Добавлен класс Calc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен класс Calc" />
+    <MESSAGE value="правки" />
+    <option name="LAST_COMMIT_MESSAGE" value="правки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
